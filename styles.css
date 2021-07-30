@@ -204,6 +204,11 @@ footer {
 
 @media only screen and (max-width: 980px) {
 
+    body {
+        background-color: aquamarine;
+    }
+   
+   
     .flex-container {
         display: flex;
         flex-direction: column;
