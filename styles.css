@@ -18,7 +18,7 @@ h1 {
 #About-Me-Section {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 35px;
@@ -26,12 +26,12 @@ h1 {
 }
 
 #About-Me-Title {
-        width:35%;
+        /* width:100px; */
         border-right: 5px solid black;
 }
 
 #Paragraph-1 {
-    width: 65%;
+    /* width: 65%; */
     margin-top: 5px;
     margin-bottom:5px;
     margin-left: 5px ;
@@ -42,31 +42,29 @@ h1 {
 #Work {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 35px;
+    padding: 10px;
+    width: 100%;
 }
 
 #photo {
-    border: blueviolet 5px solid;;
+    border: blueviolet 5px solid;
+}
+
+#photo > img {
+    width: 600px;
 }
 
 #Work-Section {
-    width:35%;
     border-right: 5px solid black;
-    justify-content: right;
+    /* justify-content: right; */
 }
 
-#Paragraph-2 {
-    width: 65%;
-    margin-top: 5px;
-    margin-bottom:5px;
-    margin-left: 5px ;
-    margin-right: 5px;
-}
-#Paragraph-2 {
-    width: 65%;
+#Paragraph-2-div {
+    /* width: 65%; */
     margin-top: 5px;
     margin-bottom:5px;
     margin-left: 5px ;
@@ -83,14 +81,12 @@ h1 {
 }
 
 #Contact-Me-Section {
-    width:35%;
     border-right: 5px solid black;
     position: relative;
     float: right;
 }
 
 #Paragraph-3 {
-    width: 65%;
     margin-top: 5px;
     margin-bottom:5px;
     margin-left: 5px ;
@@ -109,17 +105,19 @@ h1 {
 }
 
 #Resume-Section {
-    width:35%;
     border-right: 5px solid black;
     
 }
 
 #Resume-Tab {
-    width: 65%;
     margin-top: 5px;
     margin-bottom:5px;
     margin-left: 5px ;
     margin-right: 5px;
+}
+
+.Image-2 > img {
+width: 800px;
 }
 
 
@@ -150,10 +148,6 @@ h1 {
     margin: 0px;
 }
 
-.flex-container {
-    justify-content: space-evenly;
-    flex-direction: column;
-}
 
 #Placeholder-1 {
     width: 100%;
@@ -192,12 +186,12 @@ footer {
 
 .flex-item-left {
   padding: 10px;
-  flex: 50%;
+  flex: 30%;
 }
 
 .flex-item-right {
   padding: 10px;
-  flex: 50%;
+  flex: 70%;
 }
 
 .container {
@@ -208,16 +202,36 @@ footer {
     display: flex;
 }
 
-@media (max-width: 980px) {
-  .flex-container {
-    flex-direction: column;
-    background-color: purple;
-    font-family: monospace;
-  text-decoration-color: white;
-  align-items: stretch;
-  flex-wrap: wrap;
-  }
+@media only screen and (max-width: 980px) {
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      #About-Me-Section, #Work, #Resume, #Contact-Me {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #Resume-Section, #Contact-Me-Section, #Work-Section, #About-Me-Title {
+          border-right: 0px;
+          border-top: 5px solid black;
+      }
+      
+      .flex-item-left {
+        padding: 10px;
+        flex: 100%;
+      }
+      
+      .flex-item-right {
+        padding: 10px;
+        flex: 100%;
+      }
  }
+
 
 
 
