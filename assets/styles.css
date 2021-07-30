@@ -1,0 +1,271 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-color: cornflowerblue;
+    color:blueviolet;
+
+}
+
+
+
+ul {
+    list-style-type:none;
+}
+
+h1 {
+    color:blueviolet;
+}
+
+#About-Me-Section {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+    padding: 10px;
+}
+
+#About-Me-Title {
+        /* width:100px; */
+        border-right: 5px solid black;
+}
+
+#Paragraph-1 {
+    /* width: 65%; */
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
+}
+
+
+#Work {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+    padding: 10px;
+    width: 100%;
+}
+
+#photo {
+    border: blueviolet 5px solid;
+}
+
+#photo > img {
+    width: 600px;
+}
+
+#Work-Section {
+    border-right: 5px solid black;
+    /* justify-content: right; */
+}
+
+#Paragraph-2-div {
+    /* width: 65%; */
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
+}
+
+#Contact-Me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+#Contact-Me-Section {
+    border-right: 5px solid black;
+    position: relative;
+    float: right;
+}
+
+#Paragraph-3 {
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
+}
+
+
+
+#Resume {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+#Resume-Section {
+    border-right: 5px solid black;
+    
+}
+
+#Resume-Tab {
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
+}
+
+.Image-2 > img {
+width: 800px;
+}
+
+
+#Header {
+    background-color: aquamarine;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Header-Name {
+    background-color:aqua;
+    height: 40px;
+}
+
+#Header-Links {
+    min-width: 30%;
+}
+
+#Header-List {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#Joshua {
+    margin: 0px;
+}
+
+
+#Placeholder-1 {
+    width: 100%;
+    height: 200px;
+    background-image: url("https://kinsta.com/wp-content/uploads/2020/06/banner-sizes.jpg");
+    margin: 0px;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    }
+
+
+.Welcome {
+    position: absolute;
+    bottom: 40px;
+    right:100px;
+    color: black;
+    font-size: 50px;
+    background-color: aqua;
+}
+
+footer {
+    padding: 10px;
+    text-align: right;
+    background: paleturquoise;
+    color: black;
+  }
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 30%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 70%;
+}
+
+.container {
+    flex: 0 0 77%
+}
+
+.Section-1 {
+    display: flex;
+}
+
+@media only screen and (max-width: 980px) {
+
+    body {
+        background-color: aquamarine;
+    }
+   
+   
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      #About-Me-Section, #Work, #Resume, #Contact-Me {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #Resume-Section, #Contact-Me-Section, #Work-Section, #About-Me-Title {
+          border-right: 0px;
+          border-top: 5px solid black;
+      }
+      
+      .flex-item-left {
+        padding: 10px;
+        flex: 100%;
+      }
+      
+      .flex-item-right {
+        padding: 10px;
+        flex: 100%;
+      }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
