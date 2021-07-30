@@ -1,6 +1,13 @@
 My Portfolio!!!!
 
-![Screenshot (76)](https://user-images.githubusercontent.com/83887301/122145848-02707100-ce24-11eb-8061-d5a56833af0d.png)
+
+
+
+
+![Screenshot (171)](https://user-images.githubusercontent.com/83887301/127597343-118a3738-24b1-41fd-b2cf-ba088c0636c2.png)
+![Screenshot (172)](https://user-images.githubusercontent.com/83887301/127597345-4f4c914a-1c19-4288-90aa-338b52955e26.png)
+![Screenshot (170)](https://user-images.githubusercontent.com/83887301/127597347-8cb0ce39-73f3-4579-bf79-1dcb952d780f.png)
+
 
 #MY PORTFOLIO
 Homework #2 -  Advanced CSS: Portfolio: 
