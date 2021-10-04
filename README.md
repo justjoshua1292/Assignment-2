@@ -3,12 +3,9 @@ My Portfolio -- Final UPDATED VERSION!!!!
 
 
 
-
-![Screenshot (333)](https://user-images.githubusercontent.com/83887301/135902966-ae662bed-8e61-4bea-9b53-6f97c1c94851.png)
-
-![Screenshot (334)](https://user-images.githubusercontent.com/83887301/135902998-d679aa37-78a9-496e-a84a-3df63173656e.png)
-
 ![Screenshot (335)](https://user-images.githubusercontent.com/83887301/135903002-84a2a636-8eee-41c9-9a7a-84514666ac8b.png)
+![Screenshot (336)](https://user-images.githubusercontent.com/83887301/135903262-027715f2-8000-41b2-8123-9850bf26af76.png)
+
 
 
 
